@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Quora Question Pairing system
 
 ![](https://img.shields.io/badge/node-v14.15.3-brightgreen)
@@ -14,14 +13,14 @@
 
 ### Mernstack Machine Learning Application
 
-Fullstack web based machine learning application which tells if the two input/selected questions have similar meaning/intent.
+This is a full-stack web-based machine learning application designed to determine if two input or selected questions share similar meanings or intents.
 
 #### Features:
 
-- Given two input questions the app predicts if they have same meaning/intent.
-- The two input questions will be stored in the MongoDB database.
-- The questions in the database will be rendered in the UI.
-- Form the given list of questions user can select any two questions and can ask to predict for the same and it will give the response accordingly.
+- Predicts if two input questions have the same meaning/intent.
+- Stores input questions in a MongoDB database.
+- Renders questions stored in the database in the UI.
+- Allows users to select any two questions from a list and predict their similarity.
 
 ### Technologies used:
 
@@ -29,15 +28,14 @@ Fullstack web based machine learning application which tells if the two input/se
 - Backend: - `Nodejs`, `Express.js`, `MongoDB`
 - Machine Learning:- `Python`, `Ensemble Learning Algorithms`, `Data Analysis`
 
-#### How this application works:
+#### How the Application Works:
 
-- On submitting the two input questions it gets stored in the database using the `post()` method.
-- Simultaneously those questions gets passed as parameter to the python script.
-- Python script on the server processes the input and gives the predicted result.
-- The predicted result gets rendered in the UI.
-- And the questions in the database fetched from the database using `get()` method to re-render in the UI.
-- If the user opts to select any two questions from the rendered list then those selected questions is passed to the server side to process.
-- After processing the result is displayed on the UI.
+- User submits two input questions, which are stored in the database..
+- The questions are simultaneously passed as parameters to a Python script.
+- The Python script processes the input and predicts the result.
+- The predicted result is rendered in the UI.
+- Questions from the database are fetched using the get() method and re-rendered in the UI.
+- If the user selects any two questions from the rendered list, they are processed on the server side, and the result is displayed.
 
 To run the python script on server side I have used Nodejs' `child_process()` method.
 
@@ -80,6 +78,3 @@ To read more click [here](https://www.quora.com/What-is-polarity-and-subjectivit
 - To start app run `npm start` in another terminal.
 - To run the python script you must have `python >= 3.7` installed.
 - Make sure your server is running before asking the app to predict.
-=======
-# QuestionParing-MERN
->>>>>>> b831fc86fdca2f608ff6e0c51348ccec803ad5a2
