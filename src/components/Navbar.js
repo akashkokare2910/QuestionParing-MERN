@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     marginLeft: theme.spacing(8),
-    color: "black",
+    color: "white",
   },
   logo: {
     width: 45,
@@ -42,13 +42,14 @@ const useStyles = makeStyles((theme) => ({
 export default function Navbar() {
   const classes = useStyles();
   const gotoGitProfile = (event) =>
-    (window.location.href = "http://www.github.com/kashaudhan");
+    (window.location.href = "https://github.com/akashkokare2910");
 
   const gotoLinkedInProfile = (event) =>
-    (window.location.href = "http://www.linkedin.com/in/kashaudhan");
+    (window.location.href = "https://www.linkedin.com/in/akash-kokare13bz/");
 
   const gotoInfo = (event) =>
-    (window.location.href = "http://www.github.com/kashaudhan/questionPairing");
+    (window.location.href =
+      "https://github.com/akashkokare2910/QuestionParing-MERN");
 
   return (
     <div>

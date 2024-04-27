@@ -27,7 +27,7 @@ export default function Footer() {
       <AppBar position="static" color="primary" className={classes.root}>
         <Container>
           <Toolbar className={classes.content}>
-            <Typography variant="body2">© 2021 kashaudhan</Typography>
+            <Typography variant="body2">© 2021 Akash Kokare</Typography>
             <Typography variant="body2">Stay in touch</Typography>
             <Typography variant="body2">Help & FAQs</Typography>
             <Typography variant="body2">Contact</Typography>
