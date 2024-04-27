@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quora Question Pairing system
 
 ![](https://img.shields.io/badge/node-v14.15.3-brightgreen)
@@ -79,3 +80,6 @@ To read more click [here](https://www.quora.com/What-is-polarity-and-subjectivit
 - To start app run `npm start` in another terminal.
 - To run the python script you must have `python >= 3.7` installed.
 - Make sure your server is running before asking the app to predict.
+=======
+# QuestionParing-MERN
+>>>>>>> b831fc86fdca2f608ff6e0c51348ccec803ad5a2
